@@ -1,0 +1,213 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.thei{
+    color:#888;
+}
+
+
+
+.container{
+    width:80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    padding-top: 1.2rem;
+    min-height: 70px;
+}
+
+header a{
+    color:#000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header li a:hover{
+    color:#888;
+}
+
+header .logo{
+    float:left;
+}
+
+header .logo h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+/* Introduction Of Page */
+
+#intro h1 {
+    width:50%;
+    float:left;
+    font-size: 3rem;
+}
+#intro img{
+    width:30%;
+    margin-top:1.5rem;
+    float:right;
+}
+
+#sidebar .post{
+    width: 30%;
+    border: 0.125rem solid #888;
+    margin: 1rem 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    float: left;
+    box-shadow: 5px 5px 5px #888;
+}
+
+#sidebar .post h4{
+    font-size: 2rem;
+    border-bottom: 0.125rem solid #eee;
+}
+
+#sidebar .post p{
+    font-size: 1rem;
+    padding-bottom:0.625rem;
+}
+
+#sidebar .post .btns{
+    margin-bottom: 0.5rem;
+    width: 50%;
+    padding: 0.5rem;
+    background-color: #fff;
+    border:0.0625rem #888 solid;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+}
+
+#sidebar .post .btns:hover{
+    background-color: #eee;
+    color:#000;
+    border:1px solid #000;
+}
+
+#newsletter .container{
+    margin: 2rem auto;
+    padding: 1rem 1rem 2rem 1rem;
+    text-align: center;
+    background-color: #eee;
+}
+
+
+
+#newsletter input[type="email"]{
+    padding: 0.8rem 1rem;
+    width:20%;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+#newsletter .button-1{
+    width:20%;
+    background-color: #000;
+    border:0;
+    padding: 0.8rem 1rem;
+    color: #fff;
+    font-size: 1rem;
+}
+
+#newsletter .button-1:hover{
+    background-color: #888;
+    color:#000;
+}
+
+footer .container{
+    width: 80%;
+    margin:auto;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 1rem;
+    background-color: #000;
+    color:#fff;
+}
+
+@media(max-width:768px){
+    header{
+        padding-bottom: 0.2rem;
+        border-bottom:1.5px solid #000;
+    }
+
+    header .logo{
+        float:none;
+        text-align: center;
+        width: 100%;
+    }
+    header nav,
+    header nav li{
+        float: none;
+        margin-top: 10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    #intro h1 {
+        width:100%;
+        float:none;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    #intro img{
+        width:100%;
+        margin-top:1.5rem;
+        float:none;
+    }
+
+    #sidebar .post{
+        width: 90%;
+        border: 0.125rem solid #888;
+        margin: 1rem 1rem;
+        border-radius: 0.5rem;
+        text-align: center;
+        box-shadow: 5px 5px 5px #888;
+    }
+
+    #sidebar .post h4{
+        font-size: 2rem;
+        border-bottom: 0.125rem solid #eee;
+    }
+
+    #sidebar .post p{
+        font-size: 1rem;
+        padding:0 0.625rem 0 0.625rem;
+    }
+
+    #newsletter input[type="email"]{
+        padding: 0.8rem 1rem;
+        width:80%;
+        margin-bottom: 0.5rem;
+        font-size: 1rem;
+    }
+
+    #newsletter .button-1{
+        width:80%;
+        background-color: #000;
+        border:0;
+        padding: 0.8rem 1rem;
+        color: #fff;
+        font-size: 1rem;
+    }
+}
